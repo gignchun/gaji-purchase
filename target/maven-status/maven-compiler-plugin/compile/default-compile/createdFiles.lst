@@ -1,0 +1,13 @@
+GAJI/PolicyHandler.class
+GAJI/config/kafka/KafkaProcessor.class
+GAJI/AbstractEvent$1.class
+GAJI/Purchase.class
+GAJI/PurchaseController.class
+GAJI/external/PaymentService.class
+GAJI/external/Payment.class
+GAJI/AbstractEvent.class
+GAJI/Bought.class
+GAJI/PurchaseApplication.class
+GAJI/PurchaseRepository.class
+GAJI/PaymentCanceled.class
+GAJI/Canceled.class
