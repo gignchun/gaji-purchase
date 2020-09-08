@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: Purchase
+  name: purchase
   labels:
-    app: Purchase
+    app: purchase
 spec:
   ports:
     - port: 8080
       targetPort: 8080
   selector:
-    app: Purchase
+    app: purchase
