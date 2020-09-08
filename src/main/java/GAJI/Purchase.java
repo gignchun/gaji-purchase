@@ -2,6 +2,8 @@ package GAJI;
 
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 
 @Entity
