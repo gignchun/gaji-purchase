@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Purchase
+  name: purchase
   labels:
-    app: Purchase
+    app: purchase
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: Purchase
+      app: purchase
   template:
     metadata:
       labels:
-        app: Purchase
+        app: purchase
     spec:
       containers:
-        - name: Purchase
-          image: username/Purchase:latest
+        - name: purchase
+          image: username/purchase:latest
           ports:
             - containerPort: 8080
           readinessProbe:
