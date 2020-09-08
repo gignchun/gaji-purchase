@@ -3,8 +3,8 @@ package GAJI;
 public class Bought extends AbstractEvent {
 
     private Long id;
-    private Integer memberId;
-    private Integer productId;
+    private Long memberId;
+    private Long productId;
     private String status;
 
     public Long getId() {
@@ -14,18 +14,18 @@ public class Bought extends AbstractEvent {
     public void setId(Long id) {
         this.id = id;
     }
-    public Integer getMemberId() {
+    public Long getMemberId() {
         return memberId;
     }
 
-    public void setMemberId(Integer memberId) {
+    public void setMemberId(Long memberId) {
         this.memberId = memberId;
     }
-    public Integer getProductId() {
+    public Long getProductId() {
         return productId;
     }
 
-    public void setProductId(Integer productId) {
+    public void setProductId(Long productId) {
         this.productId = productId;
     }
     public String getStatus() {
